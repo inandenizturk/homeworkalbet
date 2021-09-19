@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    char i;
+    //char ;
+
+    cout << "a dan z ye: \n";
+
+    for(i = 'a'; i<= 'z'; i++){
+        if( i =='a' ||  i =='e' ||  i =='i' || i =='o' || i =='u')
+			cout<<"\""<< i <<"\" sesli harf"<<endl;
+            else
+            cout<<"\""<< i <<"\" sessiz harf"<<endl;
+    }
+    return 0;
+}
